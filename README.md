@@ -47,8 +47,7 @@ python train.py --dataset cora
 ## Graph classification
 
 Our framework also supports batch-wise classification of multiple graph instances (of potentially different size) with an adjacency matrix each. It is best to concatenate respective feature matrices and build a (sparse) block-diagonal matrix where each block corresponds to the adjacency matrix of one graph instance. For pooling (in case of graph-level outputs as opposed to node-level outputs) it is best to specify a simple pooling matrix that collects features from their respective graph instances, as illustrated below:
-
-![graph_classification](https://user-images.githubusercontent.com/7347296/34198790-eb5bec96-e56b-11e7-90d5-157800e042de.png)
+![Picture1](https://github.com/SaiDeepthiYeddula/GCN/assets/42706378/282afb97-23a6-4893-b86b-cb71567250d4)
 
 
 ## References:
